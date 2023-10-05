@@ -106,10 +106,14 @@ nav {
   transition: all 0.3s ease-in-out;
 }
 
+.logo {
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
 .main-logo {
-  width: 120px;
-  height: 120px;
-  color: var(--main-white);
+  width: 90px;
+  height: 70px;
 }
 .main-logo:hover {
   animation: shake 0.5s;
@@ -486,9 +490,6 @@ footer {
   .nav {
     justify-content: center;
   }
-  .mobile-menu-icon {
-    display: none !important;
-  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -532,7 +533,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
   .ogre-preview {
     max-width: 300px;
   }
@@ -563,23 +564,6 @@ footer {
     display: none;
   }
 
-  .logo {
-    text-align: center;
-  }
-
-  .logo img {
-    max-width: 200px;
-  }
-
-  .mobile-menu-icon {
-    display: block;
-    font-size: 2.4rem;
-    color: var(--main-white);
-    cursor: pointer;
-    text-align: right;
-    margin-right: 20px;
-  }
-
   .mobile-menu {
     display: none;
     text-align: center;
@@ -587,7 +571,7 @@ footer {
     backdrop-filter: blur(10px);
     opacity: calc(0.9 * 0.9);
     position: absolute;
-    top: 60%;
+    top: 90%;
     left: 0;
     width: 100%;
     padding: 30px 20px;
@@ -643,5 +627,8 @@ footer {
 @media screen and (max-width: 410px) {
   .container .accordion-content p {
     font-size: 2rem;
+  }
+  .headers h2 {
+    font-size: 6rem;
   }
 }
