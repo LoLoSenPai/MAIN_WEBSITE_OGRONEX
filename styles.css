@@ -567,9 +567,8 @@ footer {
   .mobile-menu {
     display: none;
     text-align: center;
-    background-color: #020f14;
+    background-color: #020f14a6;
     backdrop-filter: blur(10px);
-    opacity: calc(0.9 * 0.9);
     position: absolute;
     top: 90%;
     left: 0;
